@@ -1,0 +1,3 @@
+C:/Users/jccpa/CLionProjects/game_2048/cmake-build-debug/CMakeFiles/game_2048.dir
+C:/Users/jccpa/CLionProjects/game_2048/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jccpa/CLionProjects/game_2048/cmake-build-debug/CMakeFiles/rebuild_cache.dir
