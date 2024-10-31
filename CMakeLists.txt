@@ -4,8 +4,7 @@ project(game_2048)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(game_2048 src/main.cpp
-        src/Tile.cpp
-        headers/Tile.h)
+)
 
 include_directories(headers c:/SFML/include)
 

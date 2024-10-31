@@ -1283,7 +1283,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-graphics-d.a"
+			"value" : "C:/SFML/lib/libsfml-graphics-d.a"
 		},
 		{
 			"name" : "SFML_GRAPHICS_LIBRARY_DYNAMIC_RELEASE",
@@ -1299,7 +1299,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-graphics.a"
+			"value" : "C:/SFML/lib/libsfml-graphics.a"
 		},
 		{
 			"name" : "SFML_GRAPHICS_LIBRARY_STATIC_DEBUG",
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-graphics-s-d.a"
+			"value" : "C:/SFML/lib/libsfml-graphics-s-d.a"
 		},
 		{
 			"name" : "SFML_GRAPHICS_LIBRARY_STATIC_RELEASE",
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-graphics-s.a"
+			"value" : "C:/SFML/lib/libsfml-graphics-s.a"
 		},
 		{
 			"name" : "SFML_INCLUDE_DIR",
@@ -1343,7 +1343,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/SFML/include"
+			"value" : "C:/SFML/include"
 		},
 		{
 			"name" : "SFML_SYSTEM_LIBRARY_DYNAMIC_DEBUG",
@@ -1359,7 +1359,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-system-d.a"
+			"value" : "C:/SFML/lib/libsfml-system-d.a"
 		},
 		{
 			"name" : "SFML_SYSTEM_LIBRARY_DYNAMIC_RELEASE",
@@ -1375,7 +1375,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-system.a"
+			"value" : "C:/SFML/lib/libsfml-system.a"
 		},
 		{
 			"name" : "SFML_SYSTEM_LIBRARY_STATIC_DEBUG",
@@ -1391,7 +1391,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-system-s-d.a"
+			"value" : "C:/SFML/lib/libsfml-system-s-d.a"
 		},
 		{
 			"name" : "SFML_SYSTEM_LIBRARY_STATIC_RELEASE",
@@ -1407,7 +1407,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-system-s.a"
+			"value" : "C:/SFML/lib/libsfml-system-s.a"
 		},
 		{
 			"name" : "SFML_WINDOW_LIBRARY_DYNAMIC_DEBUG",
@@ -1423,7 +1423,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-window-d.a"
+			"value" : "C:/SFML/lib/libsfml-window-d.a"
 		},
 		{
 			"name" : "SFML_WINDOW_LIBRARY_DYNAMIC_RELEASE",
@@ -1439,7 +1439,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-window.a"
+			"value" : "C:/SFML/lib/libsfml-window.a"
 		},
 		{
 			"name" : "SFML_WINDOW_LIBRARY_STATIC_DEBUG",
@@ -1455,7 +1455,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-window-s-d.a"
+			"value" : "C:/SFML/lib/libsfml-window-s-d.a"
 		},
 		{
 			"name" : "SFML_WINDOW_LIBRARY_STATIC_RELEASE",
@@ -1471,7 +1471,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/SFML/lib/libsfml-window-s.a"
+			"value" : "C:/SFML/lib/libsfml-window-s.a"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_game_2048: phony || .
 build CMakeFiles/game_2048.dir/src/main.cpp.obj: CXX_COMPILER__game_2048_unscanned_Debug C$:/Users/jccpa/CLionProjects/game_2048/src/main.cpp || cmake_object_order_depends_target_game_2048
   DEP_FILE = CMakeFiles\game_2048.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/jccpa/CLionProjects/game_2048/headers -Ic:/SFML/include -I/SFML/include
+  INCLUDES = -IC:/Users/jccpa/CLionProjects/game_2048/headers -Ic:/SFML/include -IC:/SFML/include
   OBJECT_DIR = CMakeFiles\game_2048.dir
   OBJECT_FILE_DIR = CMakeFiles\game_2048.dir\src
 
@@ -64,9 +64,9 @@ build CMakeFiles/game_2048.dir/src/main.cpp.obj: CXX_COMPILER__game_2048_unscann
 #############################################
 # Link the executable game_2048.exe
 
-build game_2048.exe: CXX_EXECUTABLE_LINKER__game_2048_Debug CMakeFiles/game_2048.dir/src/main.cpp.obj | /SFML/lib/libsfml-system-d.a /SFML/lib/libsfml-window-d.a /SFML/lib/libsfml-graphics-d.a
+build game_2048.exe: CXX_EXECUTABLE_LINKER__game_2048_Debug CMakeFiles/game_2048.dir/src/main.cpp.obj | C$:/SFML/lib/libsfml-system-d.a C$:/SFML/lib/libsfml-window-d.a C$:/SFML/lib/libsfml-graphics-d.a
   FLAGS = -g
-  LINK_LIBRARIES = /SFML/lib/libsfml-system-d.a  /SFML/lib/libsfml-window-d.a  /SFML/lib/libsfml-graphics-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/SFML/lib/libsfml-system-d.a  C:/SFML/lib/libsfml-window-d.a  C:/SFML/lib/libsfml-graphics-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\game_2048.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
