@@ -7,12 +7,10 @@ Tile::Tile(int val) {
     shape.setFillColor(get_color());
     shape.setSize(sf::Vector2f(Constants::TILE_SIZE, Constants::TILE_SIZE));
 
-
     value_font.loadFromFile("../assets/Roboto-Bold.ttf");
     value_text.setFont(value_font);
     value_text.setFillColor(sf::Color::Black);
     value_text.setCharacterSize(Constants::TILE_CHAR_SIZE);
-
 }
 
 void Tile::update() {
