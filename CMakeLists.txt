@@ -7,6 +7,8 @@ add_executable(game_2048 src/main.cpp
         src/Tile.cpp
         headers/Tile.h
         headers/Constants.h
+        src/Grid.cpp
+        headers/Grid.h
 )
 
 include_directories(headers c:/SFML/include)
