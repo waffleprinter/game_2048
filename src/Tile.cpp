@@ -1,9 +1,8 @@
 #include <iostream>
 #include "Tile.h"
 
-Tile::Tile(int val, sf::Vector2f pos) {
+Tile::Tile(int val) {
     value = val;
-    position = pos;
 
     shape.setFillColor(get_color());
     shape.setSize(sf::Vector2f(Constants::TILE_SIZE, Constants::TILE_SIZE));

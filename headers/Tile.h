@@ -25,7 +25,7 @@ public:
     sf::Vector2f position;
     sf::RectangleShape shape;
 
-    Tile(int val, sf::Vector2f pos);
+    explicit Tile(int val);
 
     void update();
     void draw(sf::RenderWindow& window) const;
