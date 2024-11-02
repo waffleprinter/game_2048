@@ -1,12 +1,16 @@
 #include <SFML/Graphics.hpp>
 #include "Tile.h"
+#include "Grid.h"
 
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Test", sf::Style::Titlebar | sf::Style::Close);
+    float width = Constants::COLS * (Constants::TILE_SIZE + Constants::TILE_PADDING) + Constants::TILE_PADDING;
+    float height = Constants::ROWS * (Constants::TILE_SIZE + Constants::TILE_PADDING) + Constants::TILE_PADDING;
+    sf::RenderWindow window(sf::VideoMode(width, height), "2048", sf::Style::Titlebar | sf::Style::Close);
     sf::Event event{};
 
-    Tile tile(2, sf::Vector2f(200, 200));
+    Grid grid = Grid();
+    grid.position = sf::Vector2f(0, 0);
 
     while (window.isOpen()) {
         while (window.pollEvent(event)) {
@@ -15,9 +19,11 @@ int main() {
             }
         }
 
+        grid.update();
+
         window.clear(sf::Color(200, 200, 200));
 
-        tile.draw(window);
+        grid.draw(window);
 
         window.display();
     }
