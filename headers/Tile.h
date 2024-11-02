@@ -24,14 +24,16 @@ public:
     int value;
     sf::Vector2f position;
     sf::RectangleShape shape;
-    sf::Text value_text;
-    sf::Font value_font;
 
     Tile(int val, sf::Vector2f pos);
 
-    void draw(sf::RenderWindow& window);
+    void update();
+    void draw(sf::RenderWindow& window) const;
 
 private:
+    sf::Text value_text;
+    sf::Font value_font;
+
     sf::Color get_color() const;
 };
 
